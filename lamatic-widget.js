@@ -73,14 +73,7 @@
     const style = document.createElement("style");
     style.textContent = `
       .lamatic-chat-content p { margin:0px !important;}
-      .lamatic-chat-dialog { width:300px !important;}
       .lamatic-chat-content { word-break: break-word; overflow-wrap: break-word; }
-      .lamatic-chat-dialog-overlay {
-        visibility: visible !important;
-        opacity: 1 !important;
-        padding-bottom:90px !important;
-        bottom: 0px !important;
-      }
       .lamatic-floating-button { border-radius: 50px !important; background-color: #f0f0f0 !important; }
       .lamatic-chat-message { font-size: small !important; }
       .lamatic-header-text { color: #fff }
